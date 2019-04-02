@@ -4,7 +4,7 @@ $("ul").on("click", "li",function(){
 })
 
 $("ul").on("click", "span" ,function(event){
-    debugger;
+    
     $(this).parent().fadeOut(500, function(){
        $(this).remove(); 
     });                     
